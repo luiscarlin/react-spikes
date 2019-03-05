@@ -8,9 +8,9 @@ export default () => {
 
   // use setValue() to update the internal state
   return (
-    <>
+    <div>
       <h1>Current Value is="{value}"</h1>
       <input type="text" onChange={event => setValue(event.target.value)} value={value}/>
-    </>
+    </div>
   )
 }
