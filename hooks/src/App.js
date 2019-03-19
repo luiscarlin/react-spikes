@@ -3,11 +3,13 @@ import './App.css';
 import UseStatePractice from './UseStatePractice'
 import Refactoring from './BeforeRefactoring'
 import AfterRefactoring from './AfterRefactoring';
+import UseEffectPractice from './UseEffectPractice';
 
 const examples = [
   <UseStatePractice/>,
   <Refactoring />,
-  <AfterRefactoring/>
+  <AfterRefactoring/>,
+  <UseEffectPractice/>
 ]
 
 class App extends Component {
