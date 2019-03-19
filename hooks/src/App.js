@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import UseStatePractice from './useStatePractice'
-import Refactoring from './Refactoring'
+import UseStatePractice from './UseStatePractice'
+import Refactoring from './BeforeRefactoring'
+import AfterRefactoring from './AfterRefactoring';
 
 const examples = [
   <UseStatePractice/>,
-  <Refactoring />
+  <Refactoring />,
+  <AfterRefactoring/>
 ]
 
 class App extends Component {
