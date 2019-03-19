@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Input from './Input'
+import UseStatePractice from './useStatePractice'
 import Refactoring from './Refactoring'
 
 const examples = [
-  <Input/>,
+  <UseStatePractice/>,
   <Refactoring />
 ]
 
