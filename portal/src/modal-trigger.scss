@@ -1,0 +1,18 @@
+.modal-trigger-button {
+  padding: 0.1em 0.5em;
+  color: #4285f4;
+  background: #e2edff;
+  border: 2px solid #bad2fa;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background 0.15s ease-out;
+
+  &:hover {
+    background: #cbddfb;
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 4px currentColor;
+  }
+}

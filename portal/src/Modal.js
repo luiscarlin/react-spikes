@@ -1,8 +1,16 @@
 import React from 'react'
+import ModalTrigger from './ModalTrigger'
+import ModalContent from './ModalContent'
 
 class Modal extends React.Component {
   render() {
-    return <button>This is a button to trigger the Modal</button>
+    const { triggerText } = this.props
+    return (
+      <>
+        <ModalTrigger text={triggerText} />
+        <ModalContent />
+      </>
+    )
   }
 }
 

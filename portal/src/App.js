@@ -32,7 +32,7 @@ function App() {
         listicle farm-to-table. Etsy palo santo skateboard, jean shorts gentrify
         jianbing lumbersexual kinfolk YOLO.
       </p>
-      <Modal />
+      <Modal triggerText="This is a button to trigger the Modal" />
     </main>
   )
 }
