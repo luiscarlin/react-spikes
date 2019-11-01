@@ -1,8 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App'
+import './index.scss'
 
-function Root() {
-  return <div>hello</div>
-}
-
-ReactDOM.render(<Root />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))
